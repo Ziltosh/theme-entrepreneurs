@@ -1,0 +1,25 @@
+{
+  "name": "zeross/entrepreneurs",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "EGERMANN Nicolas",
+      "email": "zeross30@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Theme\\": "src/Theme",
+      "ViteHelpers\\": "src/ViteHelpers"
+    }
+  },
+  "require": {
+    "ext-dom": "*",
+    "ext-json": "*",
+    "php": "^7.4 || ^8.0"
+  },
+  "config": {
+    "allow-plugins": {
+    }
+  }
+}

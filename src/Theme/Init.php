@@ -14,8 +14,17 @@ class Init
         ]);
 
         Assets::font('suisseIntl/SuisseIntl-Regular.otf');
+        Assets::font('suisseIntl/SuisseIntl-Medium.otf');
+        Assets::font('suisseIntl/SuisseIntl-Light.otf');
+        Assets::font('montreal/PPNeueMontreal-Medium.ttf');
+        Assets::font('montreal/PPNeueMontreal-Regular.otf');
+        Assets::font('Inter-VariableFont_slnt,wght.ttf');
 
         add_action('wp_enqueue_scripts', function () {
+            Assets::enqueueStyle('main', 'main.pcss');
+        });
+
+        add_action('admin_enqueue_scripts', function () {
             Assets::enqueueStyle('main', 'main.pcss');
         });
 

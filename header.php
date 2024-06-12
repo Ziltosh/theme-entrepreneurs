@@ -12,7 +12,3 @@
     <?php wp_head() ?>
 </head>
 <body>
-
-<!-- wp:entrepreneurs/header -->
-<div class="wp-block-entrepreneurs-header"><h1>Header modif</h1><p>Count: 0</p><button>Click me</button><div class="post-content"></div></div>
-<!-- /wp:entrepreneurs/header -->

@@ -22,6 +22,7 @@ class Init
 
         add_action('wp_enqueue_scripts', function () {
             Assets::enqueueStyle('main', 'main.pcss');
+            Assets::enqueueScript('global', 'global.js');
         });
 
         add_action('admin_enqueue_scripts', function () {

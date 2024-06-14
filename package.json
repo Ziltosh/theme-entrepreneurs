@@ -17,6 +17,7 @@
     "@vitejs/plugin-react": "^4.3.0",
     "@wp-strap/vite": "^0.8.0",
     "autoprefixer": "^10.4.19",
+    "gsap": "file:gsap-bonus.tgz",
     "postcss": "^8.4.38",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-import": "^16.1.0",
@@ -26,6 +27,7 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.12",
     "vite-plugin-image-optimizer": "^1.1.8",
-    "vite-plugin-live-reload": "^3.0.3"
+    "vite-plugin-live-reload": "^3.0.3",
+    "zustand": "^4.5.2"
   }
 }

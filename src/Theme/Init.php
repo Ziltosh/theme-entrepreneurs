@@ -26,7 +26,11 @@ class Init
         });
 
         add_action('admin_enqueue_scripts', function () {
-            Assets::enqueueStyle('main', 'main.pcss');
+            // On vérifie qu'on est sur la page de l'édition du thème
+            if (isset($_GET['page']) && $_GET['page'] === 'site-editor') {
+                Assets::enqueueStyle('main', 'main.pcss');
+            }
+//            Assets::enqueueStyle('main', 'main.pcss');
         });
 
     }

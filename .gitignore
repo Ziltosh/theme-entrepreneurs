@@ -37,7 +37,6 @@ wp-config.php
 
 node_modules
 vendor
-build/*
 merge_release.sh
 .DS_Store
 .idea

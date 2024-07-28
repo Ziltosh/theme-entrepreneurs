@@ -1,0 +1,52 @@
+{
+  "css/main.pcss": {
+    "file": "assets/main-CiOr_taz.css",
+    "src": "css/main.pcss",
+    "isEntry": true
+  },
+  "fonts/Inter-VariableFont_slnt,wght.ttf": {
+    "file": "fonts/Inter-VariableFont_slnt,wght.ttf",
+    "src": "fonts/Inter-VariableFont_slnt,wght.ttf"
+  },
+  "fonts/montreal/PPNeueMontreal-Medium.ttf": {
+    "file": "assets/PPNeueMontreal-Medium-C0FCSOw0.ttf",
+    "src": "fonts/montreal/PPNeueMontreal-Medium.ttf"
+  },
+  "fonts/montreal/PPNeueMontreal-Regular.otf": {
+    "file": "assets/PPNeueMontreal-Regular-CxM6MvLr.otf",
+    "src": "fonts/montreal/PPNeueMontreal-Regular.otf"
+  },
+  "fonts/suisseIntl/SuisseIntl-Light.otf": {
+    "file": "assets/SuisseIntl-Light-g8hGSIO-.otf",
+    "src": "fonts/suisseIntl/SuisseIntl-Light.otf"
+  },
+  "fonts/suisseIntl/SuisseIntl-Medium.otf": {
+    "file": "assets/SuisseIntl-Medium-yFpzvOA7.otf",
+    "src": "fonts/suisseIntl/SuisseIntl-Medium.otf"
+  },
+  "fonts/suisseIntl/SuisseIntl-Regular.otf": {
+    "file": "assets/SuisseIntl-Regular-DMrjDyQo.otf",
+    "src": "fonts/suisseIntl/SuisseIntl-Regular.otf"
+  },
+  "js/currentDevice.js": {
+    "file": "assets/currentDevice-CJpxQO6Z.js",
+    "name": "currentDevice",
+    "src": "js/currentDevice.js",
+    "isEntry": true
+  },
+  "js/global.js": {
+    "file": "assets/global-DrnYT5QE.js",
+    "name": "global",
+    "src": "js/global.js",
+    "isEntry": true
+  },
+  "js/store.js": {
+    "file": "assets/store-CPAhvTta.js",
+    "name": "store",
+    "src": "js/store.js",
+    "isEntry": true,
+    "imports": [
+      "js/currentDevice.js"
+    ]
+  }
+}

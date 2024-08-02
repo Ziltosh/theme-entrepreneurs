@@ -383,7 +383,7 @@
 
 #pricing {
   padding: var(--top) var(--x);
-  min-height: 100vh;
+  //min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -707,7 +707,7 @@
 
 #wizard {
   padding: var(--top) var(--x);
-  min-height: 100vh;
+  //min-height: 100vh;
   position: relative;
 
   .highlight {
@@ -1064,7 +1064,7 @@
   }
   #benefits {
     height: unset;
-    min-height: 100vh;
+    //min-height: 100vh;
     justify-content: unset;
     padding-top: 0;
 
